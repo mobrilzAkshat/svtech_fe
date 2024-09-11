@@ -1,0 +1,44 @@
+/* styles/LowerBanner.css */
+.lower-banner {
+    background-color: #0A92CD; /* Adjust to the exact blue in the image */
+    padding: 40px 0;
+  }
+  
+  .lower-banner-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .banner-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .banner-icon {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    /* margin-bottom: 15px; */
+  }
+  
+  .banner-text {
+    color: white;
+    font-size: 16px; /* Adjust font size */
+    text-align: left;
+    max-width: 200px; /* Control width of text block */
+  }
+  
+  @media (max-width: 768px) {
+    .lower-banner-content {
+      flex-direction: column;
+    }
+    
+    .banner-item {
+      margin-bottom: 20px;
+    }
+  }
+  

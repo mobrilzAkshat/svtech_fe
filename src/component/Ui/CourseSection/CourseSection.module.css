@@ -1,0 +1,91 @@
+/* components/CourseSection.module.css */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #eaf7ff; /* Light blue background */
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainImage {
+    border-radius: 15px;
+  }
+  
+  .overlayImageContainer {
+    position: absolute;
+    top: -60px;
+    right: 5%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlayImage {
+    border-radius: 10px;
+  }
+  
+  .textContainer {
+    flex: 1;
+    margin-left: 40px;
+  }
+  
+  .tagline {
+    color: #00a9e0; /* Light blue for tagline */
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .mainHeading {
+    color: #0F2239; /* Dark blue for heading */
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .description {
+    color: #7a7a7a; /* Light gray for description */
+    line-height: 34px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+  .featuresList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .featuresList li {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333; /* Dark gray for list items */
+    margin-bottom: 10px;
+  }
+  
+  .exploreButton {
+    background-color: #002147; /* Dark blue for the button */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .exploreButton:hover {
+    background-color: #005f99; /* Lighter blue on hover */
+  }
+  

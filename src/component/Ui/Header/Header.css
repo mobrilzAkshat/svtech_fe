@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-logo img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-links li {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-links li span {
+  margin-left: 5px;
+  font-size: 12px;
+}
